@@ -2,7 +2,7 @@
 
 I'm a software engineer living in Columbia, SC. I spend most of my time working with Python. Ping me at <span id="contact"></span>
 
-![](assets/images/chris_cummings.jpg)
+![Gentleman Aventurer](assets/images/chris_cummings.jpg)
 
 <script>
 var myStuff = {
