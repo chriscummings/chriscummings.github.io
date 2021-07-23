@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>ChrisCummings.net</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+<h1>Python</h1>
+
+<ul>
+<li><a href="#tuples">Tuples</a></li>
+</ul>
+
+<h2><a name="tuples">Tuples</h2>
+
+<hr />
+
+<p>A tuple comprises of set of comma-separated objects encapsulated inside the 
+parentheses. The following can be described as a tuple:</p>
+
+<pre><code>tuple1 = (230, "James", 123)   
+tuple2 = ("red", "green", "blue")
+</code></pre>
+
+<p>We can also create tuples without using the parenthesis. A sequence of values 
+separated by comma will create a tuple.</p>
+
+<pre><code>a = 3, 4, 5, 6
+print(type(a)) # &lt;class 'tuple'&gt;
+</code></pre>
+
+<p>Just like lists, tuples also have negative indexing starting from the most 
+right (-1) to the most left. For Example:</p>
+
+<pre><code>tuple1= ("apple", "orange", "lemon") 
+print(tuple1[-1]) # 'lemon'
+</code></pre>
+
+<h3>Tuple Unpacking</h3>
+
+<pre><code>lax_coords = (33.9, -118.4) # tuple
+latitude, longiude = lax_coords # unpacking
+print(latitude) # 33.9
+</code></pre>
+
+<h3>Grabbing excess items</h3>
+
+<pre><code>a, b, *rest = range(5)
+print(a) # 0
+print(b) # 1
+print(rest) # 2, 3, 4
+</code></pre>
+
+<h3>Changing Tuple Values</h3>
+
+<p>As we know that tuples are immutable, means that we cannot change the values 
+inside a tuple. However, we can convert a tuple into a list and then change 
+the values of that list and again change the particular list into a tuple 
+again. For Example:</p>
+
+<pre><code>tuple1= ("apple", "orange", "lemon") 
+tuple2 = list(tuple1) 
+tuple2[1] = "banana" 
+tuple1 = tuple(tuple2) 
+print(tuple1) # ('banana','orange','lemon')
+</code></pre>
+
+<h3>Named Tuples</h3>
+
+<pre><code>from collections import namedtuple
+
+City = namedtuple('City', 'name country population coordinates')
+tokyo = City('Tokyo', 'JP', 36.933, (35, 139))
+print(tokyo.country)
+</code></pre>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

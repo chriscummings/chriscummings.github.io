@@ -4,6 +4,8 @@ import os
 
 
 class StaticSiteGenerator():
+	"""
+	"""
 
 	def __init__(self, input_dir, output_dir):
 		self.input_dir  = input_dir
@@ -33,7 +35,6 @@ class StaticSiteGenerator():
 				with open(os.path.join(self.output_dir, fname+".html"), "w") as f:
 					f.write(content)
 
-
 	def clean_output_dir(self):
 		""" Removes all HTML files from the output directory.
 		"""
@@ -60,6 +61,3 @@ class StaticSiteGenerator():
 if __name__ == "__main__":
 	generator = StaticSiteGenerator("./source", "./docs")
 	generator.generate()
-
-
-
