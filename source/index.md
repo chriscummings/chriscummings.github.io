@@ -11,4 +11,3 @@ I'm a software engineering manager living in Columbia, SC. Ping me at <span clas
 
 ---
 
-[.](python.html)
