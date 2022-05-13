@@ -1,0 +1,18 @@
+[[package]]
+name = "markdown2"
+version = "2.4.3"
+description = "A fast and complete Python implementation of Markdown"
+category = "main"
+optional = false
+python-versions = ">=3.5, <4"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "cc958d0351b69655935759fb1752a4caac8eefabc88cafcc109d1cebded15352"
+
+[metadata.files]
+markdown2 = [
+    {file = "markdown2-2.4.3-py2.py3-none-any.whl", hash = "sha256:f344d4adfba5d1de821f7850b36e3507f583468a7eb47e6fa191765ed0b9c66b"},
+    {file = "markdown2-2.4.3.tar.gz", hash = "sha256:412520c7b6bba540c2c2067d6be3a523ab885703bf6a81d93963f848b55dfb9a"},
+]

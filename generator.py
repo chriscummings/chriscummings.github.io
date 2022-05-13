@@ -35,6 +35,8 @@ class StaticSiteGenerator():
 				with open(os.path.join(self.output_dir, fname+".html"), "w") as f:
 					f.write(content)
 
+				print("Converted file: {}".format(fname))
+
 	def clean_output_dir(self):
 		""" Removes all HTML files from the output directory.
 		"""
