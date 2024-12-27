@@ -1,24 +1,6 @@
 body{
-    background-color: #f7f7f7;
-    color: #333;
-}
-
-img{
-    border-radius: 15px;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
-
-h1{
-    font-family: 'Roboto Mono', monospace;
-    padding-bottom: 20px;
-    padding-top: 15px;
-}
-
-#footer{
-    margin-top: 77px;
-    border-top: 0px solid #ccc;
-    color: #999;
-    padding-top: 10px;
-    margin-bottom: 77px;;
+    background-color: #111;
+    color: #ddd;
+    padding: 10px;
+    font-family: monospace, monospace;
 }
