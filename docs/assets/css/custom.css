@@ -1,9 +1,9 @@
 html {
     height: 100%;
-    background-color: #000;
 }
 
 body {
+    background-color: #000;
     background: url('../images/gobo.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
